@@ -1,0 +1,34 @@
+* {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+}
+
+.recipe-container {
+     background-color: hsl(30, 54%, 90%);
+     display: flex;
+     justify-content: center;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+.recipe {
+     /* border: 3px solid red; */
+     width: 600px;
+     background-color: white;
+     padding: 50px;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+}
+
+.recipe-image {
+     height: auto;
+     width: 100%;
+     border-radius: 20px;
+}
+
+/* ul,ol {
+     list-style-position: inside
+} */
