@@ -2,6 +2,25 @@
      box-sizing: border-box;
      margin: 0px;
      padding: 0px;
+     font-family: Outfit, 'Times New Roman', Times, serif;
+     /* font-size: 16px; */
+}
+
+p {
+     font-size: 16px;
+}
+
+ol, ul {
+     /* This make sit so that the numbers and bullet points align with the other elements */
+     list-style-position: inside;
+}
+
+h2 {
+     margin-top: 0px;
+}
+
+.section-title {
+     font-family: "Young Serif", 'Times New Roman', Times, serif;
 }
 
 .recipe-container {
@@ -14,9 +33,9 @@
 
 .recipe {
      /* border: 3px solid red; */
-     width: 600px;
+     width: 700px;
      background-color: white;
-     padding: 50px;
+     padding: 30px;
      border-radius: 20px;
      display: flex;
      flex-direction: column;
@@ -27,6 +46,25 @@
      height: auto;
      width: 100%;
      border-radius: 20px;
+}
+
+.recipe-title-container {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.recipe-title {
+
+}
+
+.recipe-summary {
+
+}
+
+.prep-time-container {
+     background-color: hsl(317, 64%, 98%);
+     padding: 30px;
 }
 
 /* ul,ol {
