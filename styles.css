@@ -19,6 +19,16 @@ h2 {
      margin-top: 0px;
 }
 
+span {
+     font-weight: 600;
+}
+
+.ingredients-container li::marker,
+.instructions-container li::marker {
+     color: hsl(16, 39%, 35%);
+     font-weight: 600;
+}
+
 .section-title {
      font-family: "Young Serif", 'Times New Roman', Times, serif;
 }
@@ -71,12 +81,20 @@ h2 {
 }
 
 .prep-time-container {
-     background-color: hsl(17, 64%, 98%);
+     background-color: hsl(317, 64%, 98%);
      padding: 30px;
      /* display: flex;
      flex-direction: column;
      gap: 10px; */
      border-radius: 20px;
+}
+
+.prep-time-title {
+     color: hsl(332, 51%, 32%);
+}
+
+.prep-time-text li::marker {
+     color: hsl(332, 51%, 32%);
 }
 
 .prep-time-text,
@@ -92,6 +110,6 @@ h2 {
      line-height: 1;
 }
 
-/* ul,ol {
-     list-style-position: inside
-} */
+.section-title {
+     color:hsl(16, 39%, 35%);
+}
