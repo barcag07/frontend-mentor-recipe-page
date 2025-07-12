@@ -63,8 +63,23 @@ h2 {
 }
 
 .prep-time-container {
-     background-color: hsl(317, 64%, 98%);
+     background-color: hsl(17, 64%, 98%);
      padding: 30px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     border-radius: 20px;
+}
+
+.prep-time-text {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.prep-time-container h2 {
+     /* This makes sure the container doesn't have more space on the top than on the bottom */
+     line-height: 1;
 }
 
 /* ul,ol {
