@@ -62,16 +62,26 @@ h2 {
 
 }
 
-.prep-time-container {
-     background-color: hsl(17, 64%, 98%);
-     padding: 30px;
+.prep-time-container,
+.ingredients-container,
+.instructions-container {
      display: flex;
      flex-direction: column;
      gap: 10px;
+}
+
+.prep-time-container {
+     background-color: hsl(17, 64%, 98%);
+     padding: 30px;
+     /* display: flex;
+     flex-direction: column;
+     gap: 10px; */
      border-radius: 20px;
 }
 
-.prep-time-text {
+.prep-time-text,
+.ingredients-list,
+.instructions-list {
      display: flex;
      flex-direction: column;
      gap: 10px;
